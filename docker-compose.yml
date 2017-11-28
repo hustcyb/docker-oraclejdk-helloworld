@@ -1,6 +1,6 @@
 version: '3'
 services:
-  oraclejdk:
-    container_name: oraclejdk
+  helloworld:
+    container_name: oraclejdk_helloworld
     build: .
-    image: oraclejdk
+    image: oraclejdk_helloworld
